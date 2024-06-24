@@ -2,9 +2,12 @@
 @import './scss/variables';
 @import './scss/base';
 
-//Page
-@import './scss/page/lenis';
-@import './scss/page/container';
+//Components
+@import './scss/component/icon-text';
+@import './scss/component/section-title';
 
 //Section
-@import './scss/section/section';
+@import './scss/section/s-woman';
+@import './scss/section/intro';
+@import './scss/section/enheduanna';
+

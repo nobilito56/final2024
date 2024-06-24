@@ -10,12 +10,32 @@
 }
 
 body{
-    // background-color: $grey;
+    background-color: $grey;
     font-family: "Montserrat", sans-serif;
     color : $dark ; 
     height: 100vh;
 }
 
-h1{
+h1,
+h2,
+h3{
     font-family: "ribes";
 }
+
+p{
+    color: $dark;
+}
+
+.app{
+    position: relative;
+    width: fit-content;
+    display: flex;
+    height: 100vh;
+}
+
+.frame{
+    position: relative;
+    display: flex;
+    height: 100vh;
+}
+

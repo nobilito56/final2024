@@ -1,0 +1,27 @@
+.s-woman{
+    &.intro{
+        background-image: url('/img/introbg.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        width: 90vw;
+
+
+        .s-woman_title-container{
+            padding-left: 10vw;
+        }
+        
+        .s-woman_title{
+            color: $grey;
+            line-height: 90%;
+            font-size: 6em;
+            text-transform: uppercase;
+        }
+
+        .s-woman_on-title{
+            color: $grey;
+            font-size: 1.5em;
+        }
+    }
+}

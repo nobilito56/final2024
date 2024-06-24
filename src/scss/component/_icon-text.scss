@@ -1,0 +1,21 @@
+.s-woman_title-info-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    .s-woman_title-info-time,
+    .s-woman_title-info-lieu{
+        display: flex;
+        align-items: center;
+    }
+
+    .s-woman_title-info-text{
+        color: $dark;
+        font-size: 1em;
+        font-family:"Montserrat", sans-serif;
+    }
+
+    .s-woman_title-info-icon{
+        height: 1em;
+    }
+}

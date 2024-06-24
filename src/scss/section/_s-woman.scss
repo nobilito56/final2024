@@ -1,0 +1,27 @@
+.s-woman{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+
+    .s-woman_title{
+        font-size: 4em;
+        text-transform: uppercase;
+    }
+
+    // &.number1{
+    //     background-color: red;
+    // }
+
+    // &.number2{
+    //     background-color: green;
+    // }
+
+    // &.number3{
+    //     background-color: yellow;
+    // }
+    
+    // &.number4{
+    //     background-color: blue;
+    // }
+}
