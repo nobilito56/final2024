@@ -1,4 +1,9 @@
 .s-woman_title{
+
+    &-container{
+        width: fit-content;
+    }
+
     &.red{
         color: $red;
     }
@@ -6,4 +11,10 @@
     &.blue{
         color: $blue;
     }
+}
+
+.s-woman_content-container{
+    height: 100%;
+    display: flex;
+    position: relative;
 }

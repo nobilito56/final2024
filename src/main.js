@@ -1,5 +1,7 @@
 import './style.scss';
 
 import './js/lenis';
-import './js/intro-parallax';
-import './js/transition-parallax';
+
+import './js/Parallax/intro-parallax';
+import './js/Parallax/transition-parallax';
+import './js/Parallax/object-parallax';

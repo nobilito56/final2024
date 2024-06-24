@@ -1,6 +1,6 @@
 .s-woman{
     &.number1{
-        width: 200vw;
+        width: 300vw;
         background-position-x: 20vw;
         background-image: url('/img/enheduanna-bg.png');
         background-position-x: 20vw;
@@ -10,31 +10,161 @@
         // & p{
         //     font-family:'cuneiforme';
         // }
+
+        .s-woman_quote-container{
+            position: relative;
+            top: 20vh;
+            left: 10vw;
+            // background-color: red;
+        }
     }
 
 } 
 
 .enheduanna_intro{
     display: flex;
+    position: relative;
+    left: 15vw;
+    top: 30vh;
 
     &-description{
         position: relative;
+        // background-color: $grey;
+        right: 25%;
     }
 
     &-img{
-        height: 40vh;
+        height: 50vh;
+        z-index: 100;
     }
 
     &-text{
         border: 1px solid $dark;
-        padding: 2.5% 2.5%;
+        padding: 5% 5%;
+        box-sizing: border-box;
         width: 30vw;
         text-align: justify;
 
         &-img{
             position: absolute;
-            top: 0;
-            right: 0;
+            transform-origin: center;
+            top: -5%;
+            right: -6%;
+        }
+    }
+}
+
+.enheduanna_city{
+    &-container{
+        display: flex;
+
+        position: relative;
+        left: 15vw;
+    }
+
+    &-transition{
+        transform: skewX(-10deg);
+        height: 110vh;
+        width: 15vw;
+        background-image: url('/img/pierre.jpg');
+        background-size: contain;
+        position: relative;
+        top: -20%;
+        border: 2px solid $dark;
+
+        &.right{
+            left: 40vw;
+        }
+    }
+
+    &-img{
+        width: 60vw;
+        position: absolute;
+        bottom: 10vh;
+
+        &-container{
+            height: 100vh;
+            width: fit-content;
+            position: relative;
+            left: 10vw;
+            // display: flex;
+        }
+    }
+
+    &-arrow-container{
+        display: flex;
+        height: fit-content;
+        width: fit-content;
+        gap: 1vw;
+        position: relative;
+        top: 40%;
+    }
+
+    &-arrow{
+        width: 5vw;
+
+        &-text{
+            font-size: 1.5em;
+        }
+    }
+
+    &-card{
+        width: 25vw;
+        &-container{
+            position: relative;
+            left: 13vw;
+            top: 10vh;
+        }
+    }
+}
+
+.enheduanna_suite{
+    display: flex;
+    position: relative;
+    left: 30vw;
+
+    &-description{
+        position: relative;
+        top: 60vh;
+
+        &-deux{
+            position: relative;
+            top: 40vh;
+            left: 5vw;
+        }
+    }
+
+    &-img{
+        position: relative;
+        bottom: 20vh;
+        height: 60vh;
+        z-index: 100;
+    }
+
+    &-text{
+        border: 1px solid $dark;
+        padding: 5% 5%;
+        box-sizing: border-box;
+        width: 30vw;
+        text-align: justify;
+
+        &-img{
+            position: absolute;
+            transform-origin: center;
+            top: -5%;
+            right: -6%;
+        }
+    }
+
+    &-arrow{
+        &-container{
+            z-index: 200;
+            display: flex;
+            align-items: flex-end;
+            right: 20vw;
+            gap: 2.5%;
+            position: relative;
+            top: 10vh;
         }
     }
 }
