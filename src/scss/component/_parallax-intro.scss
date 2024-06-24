@@ -1,0 +1,26 @@
+.parallax-intro{
+    position: relative;
+    width: 80vw;
+    height: 100vh;
+    overflow: hidden;
+
+    &-item{
+        width: 80vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        background-image: url('/img/carte.png');
+        background-size: cover;
+    }
+
+    &-separation{
+        position: relative;
+        left: 90%;
+        height: 100vh;
+        width: 15vw;
+        background-color: $grey;
+        transform: skewX(-10deg);
+    }
+}

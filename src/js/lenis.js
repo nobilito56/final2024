@@ -10,7 +10,7 @@ const lenis = new Lenis({
     orientation: 'horizontal',
     // Valeur par défaut : 1
     // Plus la valeur est haute, plus le défilement sera rapide 
-    wheelMultiplier: 0.5, 
+    wheelMultiplier: 0.3, 
   });
   
   function raf(time) {
