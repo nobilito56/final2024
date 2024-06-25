@@ -1,9 +1,10 @@
 .s-woman_quote{
     &-container{
         display: flex;
+        align-items: center;
         height: 8vh;
         width: 40vw;
-        gap: 5%;
+        gap: 2.5%;
     }
 
     &-line{

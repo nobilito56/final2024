@@ -1,0 +1,138 @@
+.s-woman{
+    &.number2{
+        width: 370vw;
+
+        .s-woman_quote{
+            &-container{
+                position: relative;
+                top: 10vh;
+                left: 5vw;
+            }
+
+            &-text{
+                width: 30vw;
+            }
+        }
+    }
+} 
+
+.artemisia_intro{
+    display: flex;
+    position: relative;
+
+    &-img{
+        height: 50vh;
+        position: relative;
+        top: 25vh;
+        right: 5vw;
+
+        &_artemisia{
+            height: 50vh;
+            position: relative;
+            top: 25vh;
+            left: 13vw;
+        }
+    }
+}
+
+.artemisia_galerie{
+    background-image: url('/img/artemisiabg.png');
+    background-repeat: no-repeat;
+    height: 120vh;
+    position: relative;
+    bottom: 18vh;
+    right: 5vw;
+
+    &-arrow{
+        position: relative;
+        top: 20vh;
+        right: 25vw;
+        z-index: 100;
+    }
+
+    &-tableau{
+        position: relative;
+
+        &.tableau1{
+            top: 15vh;
+            right: 2vw;
+        }
+
+        &.tableau2{
+            bottom: 25vh;
+            left: 10vw;
+        }
+
+        &.tableau3{
+            height: 40vh;
+            top: 22vh;
+            right: 25vw
+        }
+    }
+}
+
+.artemisia_suite{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 5vw;
+
+    &-description{
+        position: relative;
+        top: 10vh;
+    }
+
+    &-arrow{
+        position: relative;
+        bottom: 20vh;
+        right: 10vw;
+    }
+
+    &-maintableau{
+        height: 95vh;
+
+        &-container{
+            position: relative;
+            display: flex;
+            align-items:center ;
+            bottom: 15vh;
+            right: 10vw;
+        }
+
+        &_judith{
+            position: relative;
+            left: 38vw;
+        }
+
+        &_holopherne{
+            position: relative;
+            right: 30vw;
+        }
+    }
+}
+
+.artemisia_fin{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 10vh;
+    right: 20vw;
+    height: 100vh;
+
+    &-description{
+        position: relative;
+        bottom: 30vh;
+
+        &-bis{
+            position: relative;
+            right: 10vw;
+        }
+    }
+
+    &-arrow{
+        position: relative;
+        height: 20vh;
+        bottom: 10vh;
+        right: 30vw;
+    }
+}
