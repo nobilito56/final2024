@@ -27,6 +27,12 @@
         position: relative;
         // background-color: $grey;
         right: 25%;
+
+        &.artemisia_intro{
+            .enheduanna_intro-text-img{
+                top: 0;
+            }
+        }
     }
 
     &-img{
